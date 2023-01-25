@@ -33,3 +33,11 @@ describe("My Function", function(){
     });
 });
 ```
+***
+#### _Summary_
+* Unit testing is an essential process in any software dev. Planning for unit testing changes how you write code (for the better).
+* Mocks are used to fake the dependencies of target code.
+* `describe("message", function(){})` is to used to group tests together.
+* `beforeEach(function(){})` is used to initialize state before running each test.
+* `it("message", function(){actual test})` is used to run the actual test code.
+***
